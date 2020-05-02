@@ -7,5 +7,6 @@ public class App{
         byte age = 30;
         Date now = new Date();
         System.out.println(now);
+        System.out.println(age);
     }
 }
