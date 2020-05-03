@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class UserInput {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Age:");
-        String age = scanner.next();
-        System.out.println("Your age" + age);
+        
+      Scanner scan = new Scanner(System.in);
+      System.out.println("name :");
+      String name = scan.nextLine().trim();
+      System.out.println("Okay! You are " + name);
     }
     
 }
