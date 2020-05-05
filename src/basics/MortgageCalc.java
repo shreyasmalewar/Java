@@ -8,17 +8,22 @@ public class MortgageCalc {
         final byte MONTHS_IN_YEAR = 12; //FINAL for 12 months 
         final byte PERCENT = 100;       //FINAL 100
 
-        Scanner scanner = new Scanner(System.in); //Scanner Class Implementation
+        //Scanner Class Implementation
+        Scanner scanner = new Scanner(System.in); 
 
-        System.out.println("Principal: "); //Userinput for the value of Principal
+        //Userinput for the value of Principal
+        System.out.println("Principal: "); 
         int principal = scanner.nextInt();
 
-        System.out.println("Annual rate of interest: "); //Userinput for Annual Rate of interest
-        float annualInterest = scanner.nextFloat();      //calculating annualInterest
-        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR; //Formula for calculating monthly interest
+        //Userinput for Annual Rate of interest
+        System.out.println("Annual rate of interest: "); 
+
+        //Formula for calculating monthly interest
+        float annualInterest = scanner.nextFloat();      
+        float monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR; 
         
-        
-        System.out.println("Period : "); //Userinput Number of years
+        //Userinput Number of years
+        System.out.println("Period : "); 
         byte years = scanner.nextByte();
         int numberOfPayments = years * MONTHS_IN_YEAR;
 
