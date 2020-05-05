@@ -1,3 +1,6 @@
 #Java Basics
 
-This is the complete documentation of Java right from elementary concepts.
+Stay tuned for updates
+Part of 31 Day coding challenge 
+
+#keepgithubgreen
