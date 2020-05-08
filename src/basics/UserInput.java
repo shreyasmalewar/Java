@@ -8,7 +8,7 @@ public class UserInput {
         
       Scanner scanner = new Scanner(System.in);
 
-      System.out.print("name :");
+      System.out.print("namee :");
 
       String name = scanner.nextLine().trim();
 
