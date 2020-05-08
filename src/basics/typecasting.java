@@ -5,7 +5,10 @@ public class typecasting {
         int a = 14;
         float b = a;
 
+        //prints as integer
         System.out.println(a);
+
+        //prints as float
         System.out.println(b);
     }
 }
