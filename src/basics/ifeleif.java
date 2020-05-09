@@ -1,9 +1,13 @@
 package basics;
 
+import java.util.Scanner;
+
 public class ifeleif {
     public static void main(String[] args) {
         //initialization
-        int t = 32;
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Enter temperature:");
+        int t = scanner.nextInt();
 
         //if statement
         if(t > 30)
