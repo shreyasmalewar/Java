@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ifeleif {
     public static void main(String[] args) {
-        //initialization
+        //initialization and taking user input
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Enter temperature:");
         int t = scanner.nextInt();
