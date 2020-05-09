@@ -7,17 +7,17 @@ public class ifeleif {
         //initialization and taking user input
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Enter temperature:");
-        int t = scanner.nextInt();
+        int temperature = scanner.nextInt();
 
         //if statement
-        if(t > 30)
+        if(temperature > 30)
         {
             System.out.println("It is a hot day");
             System.out.println("Drink plenty of water");
         }
 
         //Else if statement
-        else if(t > 20 && t <= 30)
+        else if(temperature > 20 && temperature <= 30)
         {
             System.out.println("Beautiful day");
         }
