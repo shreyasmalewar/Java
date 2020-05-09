@@ -6,8 +6,14 @@ public class ifeleif {
     public static void main(String[] args) {
         //initialization and taking user input
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Enter temperature:");
-        int temperature = scanner.nextInt();
+        int temperature;
+
+        try{
+            System.out.printf("Enter temperature:");
+            temperature = scanner.nextInt();
+        }finally {
+            scanner.close();
+        }
 
         //if statement
         if(temperature > 30)
