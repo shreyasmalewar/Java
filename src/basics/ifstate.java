@@ -1,18 +1,15 @@
 package basics;
 
 public class ifstate {
-   public static void main(String[] args) {
-      int a = 4;
-      int b = 4;
+public static void main(String[] args) {
+    int income = 120_000;
+    boolean hasHighIncome;
+    if(income > 100_000)
+        hasHighIncome = true;
 
-      if(a == b)
-      {
-          System.out.println("A and B are equal");
-      }
+    else
+        hasHighIncome = false;
 
-      else
-      {
-          System.out.println("they aren't equal");
-      }
-   }
+    System.out.println(hasHighIncome);
+}
 }
