@@ -4,16 +4,25 @@ package basics;
 import java.util.Scanner;
 
 public class UserInput {
-    public static void main(String[] args) {
-        
-      Scanner scanner = new Scanner(System.in);
+  public static void main(String[] args) {
 
-      System.out.print("namee :");
+    String name;
 
-      String name = scanner.nextLine().trim();
+    Scanner scanner = new Scanner(System.in);
 
-      System.out.println("Okay! You are " + name);
-      
+    System.out.print("Name :");
+
+    try {
+
+      name = scanner.nextLine().trim();
+
+    } finally {
+
+      scanner.close();
+
     }
-    
+
+    System.out.println("Okay! You are " + name);
+  }
+
 }
