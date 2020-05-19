@@ -8,7 +8,7 @@ class ArraySum_User {
         scanner.close();
         int[] array = new int[10];
         int sum = 0;
-        System.out.println("Enter the elements:");
+        System.out.println("Enter the element(s)");
         for (int i = 0; i < 10; i++) {
             array[i] = scanner.nextInt();
         }
