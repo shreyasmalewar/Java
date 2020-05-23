@@ -1,3 +1,5 @@
+//Fibonacci series implemented
+
 package practice;
 
 public class FibonacciSeries {
@@ -9,6 +11,8 @@ public class FibonacciSeries {
 		int a = 0;
 		int b = 1;
 		int c = 1;
+
+		//fibo logic
 		for (int i = 1; i <= count; i++) {
 			System.out.print(a + ", ");
 			a = b;
