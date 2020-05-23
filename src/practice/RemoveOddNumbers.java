@@ -1,3 +1,5 @@
+//program to remove odd numbers
+
 package practice;
 
 import java.util.ArrayList;
