@@ -1,3 +1,5 @@
+//program to concatenate string
+
 package practice;
 
 import java.util.Scanner;
