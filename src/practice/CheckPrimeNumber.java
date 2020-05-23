@@ -1,3 +1,5 @@
+//Program to check if the given number is prime number
+
 package practice;
 
 import java.util.Scanner;
