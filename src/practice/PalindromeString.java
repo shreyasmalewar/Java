@@ -1,3 +1,5 @@
+//program to check palindrome 
+
 package practice;
 
 import java.util.Scanner;
