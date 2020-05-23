@@ -1,3 +1,5 @@
+//Program to calculate average of all numbers inserted
+
 package practice;
 
 import java.math.BigDecimal;
@@ -12,6 +14,8 @@ public class AverageOfNumbers {
 
 		int sum = 0;
 
+
+		//User entered numbers
 		for (int i = 0; i < count; i++) {
 			System.out.println("Please enter number " + (i + 1) + ":");
 			sum += scanner.nextInt();
