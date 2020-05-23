@@ -1,5 +1,8 @@
+//Program to delete from a list
+
 package practice;
 
+//libraries imported
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
