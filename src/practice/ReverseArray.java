@@ -1,3 +1,5 @@
+//array reversal in java
+
 package practice;
 
 import java.util.Scanner;
