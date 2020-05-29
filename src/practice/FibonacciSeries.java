@@ -7,10 +7,12 @@ public class FibonacciSeries {
 		printFibonacciSeries(10);
 	}
 
+	
 	public static void printFibonacciSeries(int count) {
 		int a = 0;
 		int b = 1;
 		int c = 1;
+
 
 		//fibo logic
 		for (int i = 1; i <= count; i++) {
