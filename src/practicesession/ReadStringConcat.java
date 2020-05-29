@@ -1,6 +1,6 @@
 //program to concatenate string
 
-package datastructures;
+package practicesession;
 
 import java.util.Scanner;
 

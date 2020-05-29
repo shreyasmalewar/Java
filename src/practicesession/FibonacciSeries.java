@@ -1,6 +1,6 @@
 //Fibonacci series implemented
 
-package datastructures;
+package practicesession;
 
 public class FibonacciSeries {
     public static void main(String[] args) {

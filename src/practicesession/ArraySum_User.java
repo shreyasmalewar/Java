@@ -1,6 +1,6 @@
 //Program to calculate sum of 1D array
 
-package datastructures;
+package practicesession;
 
 import java.util.Scanner;
 

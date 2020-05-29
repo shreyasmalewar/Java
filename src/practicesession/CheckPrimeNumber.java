@@ -1,6 +1,6 @@
 //Program to check if the given number is prime number
 
-package datastructures;
+package practicesession;
 
 import java.util.Scanner;
 

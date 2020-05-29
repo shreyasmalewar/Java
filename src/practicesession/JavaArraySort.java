@@ -1,6 +1,6 @@
 //Sorting an array in java
 
-package datastructures;
+package practicesession;
 
 import java.util.Arrays;
 

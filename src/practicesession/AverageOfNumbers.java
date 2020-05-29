@@ -1,6 +1,6 @@
 //Program to calculate average of all numbers inserted
 
-package datastructures;
+package practicesession;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,6 +1,6 @@
 //Program to delete from a list
 
-package datastructures;
+package practicesession;
 
 //libraries imported
 import java.util.ArrayList;

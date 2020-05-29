@@ -1,6 +1,6 @@
 //program to reverse a string in java
 
-package datastructures;
+package practicesession;
 
 public class JavaReverseString {
     public static void main(String[] args) {

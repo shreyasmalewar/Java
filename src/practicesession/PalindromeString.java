@@ -1,6 +1,6 @@
 //program to check palindrome 
 
-package datastructures;
+package practicesession;
 
 import java.util.Scanner;
 

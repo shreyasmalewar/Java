@@ -1,6 +1,6 @@
 //Program to convert charecter to string
 
-package datastructures;
+package practicesession;
 
 class chartostring {
     public static void main(String args[]) {
