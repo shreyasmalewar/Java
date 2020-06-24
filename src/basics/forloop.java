@@ -1,12 +1,21 @@
 package basics;
 
+import java.util.Scanner;
+
 public class forloop {
     public static void main(String[] args) {
-        int i;
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
 
-        for(i = 1; i <= 5; i++)
-        {
-            System.out.printf("%d iteration \n", i);
+        while (!input.equals("quit")) {
+            System.out.printf("Input: ");
+            try {
+                input = scanner.next().toLowerCase();
+            } finally {
+                scanner.close();
+            }
+
+            System.out.println(input);
         }
     }
 }

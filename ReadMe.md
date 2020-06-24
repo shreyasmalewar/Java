@@ -1,6 +1,4 @@
 #Java Basics
 
-Stay tuned for updates
-Part of 31 Day coding challenge 
 
-#keepgithubgreen
+Reviving repo with Algorithms Part 1 from Princeton
