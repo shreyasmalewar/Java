@@ -1,18 +1,28 @@
 package basics;
 
+import java.util.Scanner;
+
 public class ifstate {
-   public static void main(String[] args) {
-      int a = 4;
-      int b = 4;
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber;
+        int secondNumber;
 
-      if(a == b)
-      {
-          System.out.println("A and B are equal");
-      }
+        try{
+            firstNumber = scanner.nextInt();
+            secondNumber = scanner.nextInt();
+        }finally {
+            scanner.close();
+        }
 
-      else
-      {
-          System.out.println("they aren't equal");
-      }
-   }
+        if(firstNumber == secondNumber)
+        {
+            System.out.printf("%d is equal to %d", firstNumber, secondNumber);
+        }
+
+        else
+        {
+            System.out.printf("%d is not equal to %d", firstNumber, secondNumber);
+        }
+    }
 }
