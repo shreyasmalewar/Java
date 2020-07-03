@@ -6,7 +6,6 @@ public class BinarySearch {
         if (r >= l) { 
             int middle = l + (r - l) / 2; 
   
-          
             if (arr[middle] == x) 
                 return middle; 
 
@@ -17,7 +16,6 @@ public class BinarySearch {
         } 
         return -1; //flag variable
     } 
-  
     public static void main(String args[]) 
     { 
         BinarySearch B = new BinarySearch(); //
