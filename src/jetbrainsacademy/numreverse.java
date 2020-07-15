@@ -14,7 +14,7 @@ public class numreverse {
 
         while (number > 0) {
             remainder = number % 10;
-            reverse = (reverse * 10) + remainder;
+            reverse = reverse * 10 + remainder;
             number = number / 10;
         }
 
