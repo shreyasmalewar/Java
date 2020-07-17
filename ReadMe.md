@@ -1,4 +1,4 @@
-#Java Basics
+# Java Basics
 
 
-Reviving repo with Algorithms Part 1 from Princeton
+##Reviving repo, Learning java from Jetbrains Academy.
