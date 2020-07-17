@@ -9,8 +9,8 @@ public class jcheck {
  
         String str = scanner.nextLine();
         scanner.close();
-        boolean jCheck = str.startsWith("j");
-        boolean capJcheck = str.startsWith("J");
+        boolean jCheck = str.startsWith("j"); //for lower case j
+        boolean capJcheck = str.startsWith("J"); //for upper case (J)
         
         if (jCheck == true || capJcheck == true) {
             System.out.println(true);
