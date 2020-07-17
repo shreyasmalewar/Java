@@ -10,7 +10,7 @@ public class stringcompare {
     String b = scanner.nextLine();
     
     scanner.close();
-    a = a.replace(" ", "");
+    a = a.replace(" ", ""); //replacing spaces with no spaces lol
     b = b.replace(" ", "");
     System.out.println(b.equals(a));
     }
