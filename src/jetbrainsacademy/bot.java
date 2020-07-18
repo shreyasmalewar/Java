@@ -21,7 +21,8 @@ public class bot {
         int remainderThree = scanner.nextInt();
         int remainderFive = scanner.nextInt();
         int remainderSeven = scanner.nextInt();
-
+        scanner.close();
+        
         int age = (remainderThree * 70 + remainderFive * 21 + remainderSeven * 15) % 105;
 
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
