@@ -1,4 +1,4 @@
-package jetbrainsacademy;
+package jetbrainsacademy.inputmethods;
 
 import java.util.Scanner;
 
