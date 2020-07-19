@@ -1,4 +1,4 @@
-package jetbrainsacademy;
+package jetbrainsacademy.strings;
 
 import java.util.Scanner;
 
