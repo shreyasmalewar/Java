@@ -9,7 +9,7 @@ public class lessthanten {
         int number = scanner.nextInt();
         scanner.close();
 
-        boolean lessthan10 = number < 10;
+        boolean lessthan10 = number < 10 && number > 0;
 
         System.out.println(lessthan10);
     }
