@@ -11,7 +11,10 @@ public class trueifpositive {
         int c = scanner.nextInt();
         scanner.close();
 
-        if ((a > 0 && b <= 0 && c <= 0) || (a <= 0 && b > 0 && c <= 0) || (a <= 0 && b <= 0 && c > 0)) {
+        if (a > 0 && b <= 0 && c <= 0 || 
+            a <= 0 && b > 0 && c <= 0 || 
+            a <= 0 && b <= 0 && c > 0) {
+                
             System.out.println(true);
         } else {
             System.out.println(false);
