@@ -11,16 +11,20 @@ public class heightwise {
         int h3 = scanner.nextInt();
         scanner.close();
 
-        if (h1 == h2 && h2 == h3 && h1 == h3)
-            System.out.println(true);
+        if (h1 == h2 && h2 == h3 && h1 == h3) {
+                System.out.println(true);
+            }
 
-        else if (h2 >= h1 && h2 <= h3)
-            System.out.println(true);
+        else if (h2 >= h1 && h2 <= h3) {
+                System.out.println(true);
+            }
 
-        else if (h2 <= h1 && h2 >= h3)
-            System.out.println(true);
+        else if (h2 <= h1 && h2 >= h3) {
+                System.out.println(true);
+            }
 
-        else 
+        else {
             System.out.println(false);
+        }
     }
 }
