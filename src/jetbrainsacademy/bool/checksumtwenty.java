@@ -11,7 +11,7 @@ public class checksumtwenty {
         int c = scanner.nextInt();
         scanner.close();
 
-        if ( a + b == 20 || a + c == 20) {
+        if ( a + b == 20 || a + c == 20 || b + c == 20) {
             System.out.println(true);
         } else {
             System.out.println(false);
