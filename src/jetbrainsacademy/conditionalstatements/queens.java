@@ -2,8 +2,6 @@ package jetbrainsacademy.conditionalstatements;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthScrollBarUI;
-
 public class queens {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
