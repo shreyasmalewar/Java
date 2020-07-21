@@ -9,6 +9,7 @@ public class queens {
         int y1 = Math.abs(scanner.nextInt());
         int x2 = Math.abs(scanner.nextInt());
         int y2 = Math.abs(scanner.nextInt());
+        scanner.close();
 
         
     }
