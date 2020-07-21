@@ -8,7 +8,7 @@ public class intervalnum {
         int number = scanner.nextInt();
         scanner.close();
 
-        if ((-15 < number && number <= 12) || (14 < number && number < 17) || (19 <= number)) {
+        if (-15 < number && number <= 12 || 14 < number && number < 17 || 19 <= number) {
             System.out.println("True");
         } else {
             System.out.println("False");
