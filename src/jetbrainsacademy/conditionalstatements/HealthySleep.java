@@ -9,6 +9,7 @@ public class HealthySleep {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
+        scanner.close();
 
         if (c < a) {
             System.out.println("Deficiency");
