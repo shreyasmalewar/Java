@@ -15,9 +15,9 @@ public class symetricalnumber {
         int n4 = (number / 1000) % 10;
 
         if (n1 == n4 && n2 == n3) {
-            System.out.println("YES");
+            System.out.println(1);
         } else {
-            System.out.println("NO");
+            System.out.println(404);
         }
     }
 }
