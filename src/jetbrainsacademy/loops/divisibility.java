@@ -1,3 +1,5 @@
+//https://hyperskill.org/learn/step/2743
+
 package jetbrainsacademy.loops;
 
 import java.util.Scanner;
