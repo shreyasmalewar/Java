@@ -1,3 +1,5 @@
+//https://hyperskill.org/learn/step/2166
+
 package jetbrainsacademy.conditionalstatements;
 
 import java.util.Scanner;
