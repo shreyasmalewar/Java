@@ -33,7 +33,7 @@ public class bot {
         int count = scanner.nextInt();
         scanner.close();
 
-        for (int i = 1; i <= count; i++) {
+        for (int i = 0; i <= count; i++) {
             System.out.println(i + "\n");
         }
 
