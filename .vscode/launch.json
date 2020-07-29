@@ -1,0 +1,532 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ActivitySelection<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.ActivitySelection",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.BinarySearch",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BubbleSort<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.BubbleSort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionSort<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.InsertionSort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LCS<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.LCS",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearSearch<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.LinearSearch",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSort<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.MergeSort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickSort<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.QuickSort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SelectionSort<learn-java>",
+            "request": "launch",
+            "mainClass": "DAA.SelectionSort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FormatNumber<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.FormatNumber",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MortgageCalc<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.MortgageCalc",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UserInput<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.UserInput",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-array<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.array",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-date<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.date",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-fizzex<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.fizzex",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-forloop<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.forloop",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ifeleif<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.ifeleif",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ifstate<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.ifstate",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-strings<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.strings",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-switchcase<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.switchcase",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ternaryop<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.ternaryop",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-typecasting<learn-java>",
+            "request": "launch",
+            "mainClass": "basics.typecasting",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-checkequal<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.checkequal",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-checksumtwenty<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.checksumtwenty",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-groundhogsparty<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.groundhogsparty",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-heightwise<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.heightwise",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-isbetween<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.isbetween",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-lessthanten<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.lessthanten",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-trueifpositive<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bool.trueifpositive",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bot<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.bot",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HealthySleep<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.HealthySleep",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-armyclassify<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.armyclassify",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-chocolatedivide<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.chocolatedivide",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ifpositive<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.ifpositive",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-iftriangle<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.iftriangle",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-intervalnum<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.intervalnum",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-leapyear<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.leapyear",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-symetricalnumber<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.conditionalstatements.symetricalnumber",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-demo<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.demo",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-multilineinput<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.inputmethods.multilineinput",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-userInput<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.inputmethods.userInput",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-divbyfour<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.divbyfour",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-divisibility<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.divisibility",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-divisiblebysix<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.divisiblebysix",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-productofintegers<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.productofintegers",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rootsofequation<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.rootsofequation",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sumofintegers<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.sumofintegers",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.numbers.Main",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-numreverse<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.numbers.numreverse",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sumofdigits<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.numbers.sumofdigits",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-timedifference<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.numbers.timedifference",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-vacation<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.numbers.vacation",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-endswith<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.strings.endswith",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-jcheck<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.strings.jcheck",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stringcompare<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.strings.stringcompare",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-substrings<learn-java>",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.strings.substrings",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArraySum_User<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.ArraySum_User",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AverageOfNumbers<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.AverageOfNumbers",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckPrimeNumber<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.CheckPrimeNumber",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeleteFromList<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.DeleteFromList",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibonacciSeries<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.FibonacciSeries",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaArraySort<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.JavaArraySort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaReverseString<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.JavaReverseString",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeString<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.PalindromeString",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReadStringConcat<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.ReadStringConcat",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveOddNumbers<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.RemoveOddNumbers",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseArray<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.ReverseArray",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumOfArray<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.SumOfArray",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoDAddition<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.TwoDAddition",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-chartostring<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.chartostring",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-simpleinterest<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.simpleinterest",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sortarray<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.sortarray",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stringsort<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.stringsort",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-vowelconso<learn-java>",
+            "request": "launch",
+            "mainClass": "practice.vowelconso",
+            "projectName": "learn-java"
+        }
+    ]
+}
