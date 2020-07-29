@@ -10,7 +10,7 @@ public class SquareofNarurals {
         int i = 1;
         scanner.close();
 
-        while (i * i < number) {
+        while (i * i <= number) {
             System.out.println(i * i);
             i++;
         }
