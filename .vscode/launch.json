@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - whiledivbyfour",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.loops.whiledivbyfour",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - smallestvaluefactorial",
             "request": "launch",
             "mainClass": "jetbrainsacademy.loops.smallestvaluefactorial",
