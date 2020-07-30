@@ -24,5 +24,6 @@ public class bustour {
         if (crash == false) {
             System.out.println("Will not crash");
         }
+        scanner.close();
     }
 }
