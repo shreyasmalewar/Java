@@ -15,10 +15,9 @@ public class whiledivbyfour {
         while (i < n) {
             newnums = scanner.nextInt();
 
-            if (newnums % 4 == 0) {
-                if (biggest < newnums) {
+            if (newnums % 4 == 0 && biggest < newnums) {
                     biggest = newnums;
-                }
+                
             }
 
             i++;
@@ -26,6 +25,6 @@ public class whiledivbyfour {
 
         scanner.close();
         System.out.println(biggest);
-        
+
     }
 }
