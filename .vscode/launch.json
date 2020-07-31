@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - integerbarrier",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.branchstatements.integerbarrier",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - bustour",
             "request": "launch",
             "mainClass": "jetbrainsacademy.branchstatements.bustour",
