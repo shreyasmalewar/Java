@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Graph",
+            "request": "launch",
+            "mainClass": "DAA.Graph",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MatrixChainMultiplication",
+            "request": "launch",
+            "mainClass": "DAA.MatrixChainMultiplication",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - sequence",
             "request": "launch",
             "mainClass": "jetbrainsacademy.branchstatements.sequence",
