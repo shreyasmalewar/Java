@@ -2,7 +2,7 @@ package jetbrainsacademy.loops;
 
 import java.util.Scanner;
 
-public class whiledivbyfour {
+public class divbyfourwhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
