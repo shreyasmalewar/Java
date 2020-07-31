@@ -11,6 +11,7 @@ public class bustour {
         int heightOfBridge;
         boolean crash = false;
         int i = 0;
+        scanner.close();
 
         for (i = 0; i < numberOfBridges; i++) {
             heightOfBridge = scanner.nextInt();
@@ -24,6 +25,6 @@ public class bustour {
         if (crash == false) {
             System.out.println("Will not crash");
         }
-        scanner.close();
+
     }
 }
