@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - sequence",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.branchstatements.sequence",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - orderedsequence",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.branchstatements.orderedsequence",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - integerbarrier",
             "request": "launch",
             "mainClass": "jetbrainsacademy.branchstatements.integerbarrier",
