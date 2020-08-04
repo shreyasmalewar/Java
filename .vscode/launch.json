@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - greatestofthree",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.methods.greatestofthree",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - raisetopower",
             "request": "launch",
             "mainClass": "jetbrainsacademy.methods.raisetopower",
