@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - actorial",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.methods.actorial",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - factorial",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.methods.factorial",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - integerpart",
             "request": "launch",
             "mainClass": "jetbrainsacademy.methods.integerpart",
