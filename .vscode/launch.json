@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - raisetopower",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.methods.raisetopower",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - signofnum",
             "request": "launch",
             "mainClass": "jetbrainsacademy.methods.signofnum",
