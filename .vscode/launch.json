@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - division",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.methods.division",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - suminrange",
             "request": "launch",
             "mainClass": "jetbrainsacademy.methods.suminrange",
