@@ -6,9 +6,10 @@ public class bot {
     final static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         greet("Aid", "2020");
-        remindName();
-        guessAge();
+        //remindName();
+        //guessAge();
         count();
+        //test();
         end();
     }
 
@@ -40,18 +41,34 @@ public class bot {
         System.out.println("Now I will prove to you that I can count to any number you want.");
 
         int count = scanner.nextInt();
-        scanner.close();
 
         for (int i = 0; i <= count; i++) {
-            System.out.println(i + "\n");
+            System.out.println(i + "!");
         }
     }
 
     static void test() {
         //mycode
+        boolean flag = false;
+        int answer = 0;
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Why do we use methods?");
+        System.out.println("1. To repeat a statement multiple times.");
+        System.out.println("2. To decompose a program into several small subroutines.");
+        System.out.println("3. To determine the execution time of a program.");
+        System.out.println("4. To interrupt the execution of a program.");
+    
+        while (flag == false) {
+            answer = scanner.nextInt();
+            if (answer ==2) {
+                break;
+            } else {
+                System.out.println("Please, try again.");
+            }
+        }
     }
 
     static void end() {
-        System.out.println("Completed, have a nice day!");
+        System.out.println("Congratulations, have a nice day!");
     }
 }
