@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - floorspace",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.switchcase.floorspace",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - harrypotter",
             "request": "launch",
             "mainClass": "jetbrainsacademy.switchcase.harrypotter",
