@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - tictactoe",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.tictactoe",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - floorspace",
             "request": "launch",
             "mainClass": "jetbrainsacademy.switchcase.floorspace",
