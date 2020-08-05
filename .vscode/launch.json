@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - harrypotter",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.switchcase.harrypotter",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - stringtosum",
             "request": "launch",
             "mainClass": "jetbrainsacademy.switchcase.stringtosum",
