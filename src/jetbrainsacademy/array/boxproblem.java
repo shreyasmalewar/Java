@@ -4,9 +4,14 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class boxproblem {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    
+    final static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        initializeArray();
+    }
+
+    static void initializeArray() {
         int[] box1 = new int[3];
         int[] box2 = new int[3];
 
@@ -17,10 +22,14 @@ public class boxproblem {
             box2[i] = scanner.nextInt();
         }
 
-        scanner.close();
         Arrays.sort(box1);
         Arrays.sort(box2);
+        compareBox(box1, box2);
 
+        scanner.close();
+    }
+
+    static void compareBox(int[] box1, int[] box2) {
         if (box1[0] == box2[0] && box1[1] == box2[1] && box1[2] == box2[2]) {
             System.out.println("Box 1 = Box 2");    
         } else if (box1[0] >= box2[0] && box1[1] >= box2[1] && box1[2] >= box2[2]) {
