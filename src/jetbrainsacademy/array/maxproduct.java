@@ -15,6 +15,7 @@ public class maxproduct {
         }
         scanner.close();
 
+        
         maxProduct = numbers[0];
         for (int i = 0; i < numbers.length - 1; i++) {
             product = numbers[i] * numbers[i + 1];
