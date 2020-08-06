@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - boxproblem",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.boxproblem",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - maxproduct",
             "request": "launch",
             "mainClass": "jetbrainsacademy.array.maxproduct",
