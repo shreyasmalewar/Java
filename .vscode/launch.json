@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - arraysum",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.arraysum",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - tictactoe",
             "request": "launch",
             "mainClass": "jetbrainsacademy.tictactoe",
