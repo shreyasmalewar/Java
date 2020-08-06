@@ -5,7 +5,6 @@ import java.util.Arrays;
 
 public class boxproblem {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         int[] box1 = new int[3];
