@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GFG",
+            "request": "launch",
+            "mainClass": "DAA.GFG",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dijkstras",
+            "request": "launch",
+            "mainClass": "DAA.dijkstras",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - boxproblem",
             "request": "launch",
             "mainClass": "jetbrainsacademy.array.boxproblem",
