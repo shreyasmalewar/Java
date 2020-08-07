@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - swapindex",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.swapindex",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - contain",
             "request": "launch",
             "mainClass": "jetbrainsacademy.array.contain",
