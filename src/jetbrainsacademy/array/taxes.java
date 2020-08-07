@@ -12,15 +12,15 @@ public class taxes {
 
     static void inputData() {
         int numberOfCompanies = scanner.nextInt();
-        int[] yearlyIncomes = new int[numberOfCompanies];
-        int[] individualTax = new int[numberOfCompanies];
+        double[] yearlyIncomes = new double[numberOfCompanies];
+        double[] individualTax = new double[numberOfCompanies];
 
-        //loop to enter yearly income
+        // loop to enter yearly income
         for (int i = 0; i < yearlyIncomes.length; i++) {
             yearlyIncomes[i] = scanner.nextInt();
         }
 
-        //loop to enter individual tax
+        // loop to enter individual tax
         for (int i = 0; i < individualTax.length; i++) {
             individualTax[i] = scanner.nextInt();
         }
@@ -28,10 +28,10 @@ public class taxes {
         maxTax(numberOfCompanies, yearlyIncomes, individualTax);
     }
 
-    static void maxTax (int numberOfCompanies, int[] yearlyIncomes, int[] individualTax) {
-        double[] taxes = new double [numberOfCompanies];
+    static void maxTax(int numberOfCompanies, double[] yearlyIncomes, double[] individualTax) {
+        double[] taxes = new double[numberOfCompanies];
         for (int i = 0; i < yearlyIncomes.length; i++) {
-            taxes[i] = (yearlyIncomes[i] *individualTax[i]) / 100;
+            taxes[i] = (yearlyIncomes[i] * individualTax[i]) / 100;
         }
 
         int maxPos = 1;
