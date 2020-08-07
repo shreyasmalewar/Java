@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - contain",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.contain",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - taxes",
             "request": "launch",
             "mainClass": "jetbrainsacademy.array.taxes",
