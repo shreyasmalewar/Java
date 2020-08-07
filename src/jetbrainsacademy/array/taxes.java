@@ -35,10 +35,11 @@ public class taxes {
         }
 
         int maxPos = 1;
-        int max = 0;
-        for (int i = 1; i < numberOfCompanies; i++) {
+        double max = 0;
+        for (int i = 0; i < taxes.length; i++) {
             if (taxes[i] > max) {
-                maxPos = i;
+                max = taxes[i];
+                maxPos = i + 1;
             }
         }
 
