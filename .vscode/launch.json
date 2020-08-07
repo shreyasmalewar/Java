@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - taxes",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.taxes",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GFG",
             "request": "launch",
             "mainClass": "DAA.GFG",
