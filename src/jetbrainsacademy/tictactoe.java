@@ -6,34 +6,15 @@ import java.util.Scanner;
 public class tictactoe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Enter cells: ");
-        String element = scanner.next();
+
+        System.out.print("Enter cells: ");
+        char[] xo = scanner.nextLine().toCharArray();
         scanner.close();
 
         System.out.println("---------");
-        System.out.printf("| ");
-        for (int i = 0; i <= 2; i++) {
-            System.out.print(element.charAt(i) + " ");
+        for (int i = 0; i < 9; i += 3) {
+            System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
         }
-        System.out.print("|");
-
-        System.out.println();
-
-        System.out.printf("| ");
-        for (int i = 3; i <= 5; i++) {
-            System.out.print(element.charAt(i) + " ");
-        }
-        System.out.printf("|");
-
-        System.out.println();
-
-        System.out.printf("| ");
-        for (int i = 6; i <= 8; i++) {
-            System.out.print(element.charAt(i) + " ");
-        }
-        System.out.printf("|");
-
-        System.out.println();
         System.out.println("---------");
     }
 }
