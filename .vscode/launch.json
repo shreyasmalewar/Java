@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GFG",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.GFG",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - spiralmatrix",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.spiralmatrix",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - problemofday",
             "request": "launch",
             "mainClass": "jetbrainsacademy.problemofday",
