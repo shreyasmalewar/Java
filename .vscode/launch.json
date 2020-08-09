@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - cinema",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.array.cinema",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GFG",
             "request": "launch",
             "mainClass": "jetbrainsacademy.GFG",
