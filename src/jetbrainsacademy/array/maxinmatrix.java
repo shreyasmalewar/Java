@@ -3,36 +3,33 @@ package jetbrainsacademy.array;
 import java.util.Scanner;
 
 public class maxinmatrix {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int row = scanner.nextInt();
-        int col = scanner.nextInt();
-        int r = 0;
-        int c = 0;
+        final Scanner scanner = new Scanner(System.in);
 
-        int[][] matrix = new int[row][col];
+        final int n = scanner.nextInt();
+        final int m = scanner.nextInt();
+        final int[][] matrix = new int[n][m];
 
-        int max = -300;
-
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
                 matrix[i][j] = scanner.nextInt();
             }
         }
 
-    
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                if (matrix[i][j] > max) {
-                    max = matrix[i][j];
-                    r = i;
-                    c = j;
+        int iMax = 0;
+        int jMax = 0;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[iMax][jMax] < matrix[i][j]) {
+                    iMax = i;
+                    jMax = j;
                 }
             }
         }
 
-        System.out.println(r + " " + c);
-
+        System.out.println(iMax + " " + jMax);
         scanner.close();
     }
 }
