@@ -7,64 +7,46 @@ public class spiralmatrix {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[][] matrix = new int[n][n];
+        int value = 1;
+        int minCol = 0;
+        int minRow = 0;
+        int maxRow = n - 1;
+        int maxCol = n -1;
 
-        spiralFill(n, matrix);
+        while (value <= n * n) {
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(matrix[i][j] + " ");
+            for (int i = minCol; i <= maxCol; i++) {
+                matrix[minRow][i] = value;
+                value++;
             }
-            System.out.println("");
+
+            for (int i = minRow + 1; i <= maxRow; i++) {
+                matrix[i][maxCol] = value;
+                value++;
+            }
+
+            for (int i = maxCol - 1; i >= minCol; i--) {
+                matrix[maxRow][i] = value;
+                value++;
+            }
+
+            for (int i = maxRow - 1; i >= minRow + 1; i--) {
+                matrix[i][minCol] = value;
+                value++;
+            }
+
+            minRow++;
+            minCol++;
+            maxRow--;
+            maxCol--;
         }
 
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                System.out.printf(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
         scanner.close();
-    }
-
-    static void spiralFill(int n, int[][] matrix) {
-        // Initialize value to be filled in matrix
-        int val = 1;
-
-        /*
-         * k - starting row index l - starting column index n - ending row/column index
-         */
-        int k = 0, l = 0;
-
-        while (k < n && l < n) {
-            /*
-             * Print the first row from the remaining rows
-             */
-            for (int i = l; i < n; ++i) {
-                matrix[k][i] = val++;
-            }
-            k++;
-
-            /*
-             * Print the last column from the remaining columns
-             */
-            for (int i = k; i < n; ++i) {
-                matrix[i][n - 1] = val++;
-            }
-            n--;
-
-            /*
-             * Print the last row from the remaining rows
-             */
-            if (k < n) {
-                for (int i = n - 1; i >= l; --i) {
-                    matrix[n - 1][i] = val++;
-                }
-                n--;
-            }
-
-            /*
-             * Print the first column from the remaining columns
-             */
-            if (l < n) {
-                for (int i = n - 1; i >= k; --i) {
-                    matrix[i][l] = val++;
-                }
-                l++;
-            }
-        }
     }
 }
