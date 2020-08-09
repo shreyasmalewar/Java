@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - problemofday",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.problemofday",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - maxinmatrix",
             "request": "launch",
             "mainClass": "jetbrainsacademy.array.maxinmatrix",
