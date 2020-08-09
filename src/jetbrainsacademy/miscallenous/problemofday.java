@@ -1,4 +1,4 @@
-package jetbrainsacademy;
+package jetbrainsacademy.miscallenous;
 
 import java.util.Scanner;
 
