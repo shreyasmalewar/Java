@@ -16,5 +16,8 @@ public class tictactoe {
             System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
         }
         System.out.println("---------");
+
+
+
     }
 }
