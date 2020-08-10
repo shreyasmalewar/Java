@@ -9,8 +9,8 @@ public class cinema {
         int col = scanner.nextInt();
         int[][] matrix = new int[row][col];
 
-        for (int i = 0; i < row; i ++) {
-            for (int j = 0; j < col ; j++) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 matrix[i][j] = scanner.nextInt();
             }
         }
@@ -21,7 +21,7 @@ public class cinema {
 
         for (int i = 0; i < row; i++) {
             if (emptyrow != 0) {
-              break;
+                break;
             }
             count = 0;
             for (int j = 0; j < col; j++) {
@@ -39,7 +39,7 @@ public class cinema {
         }
 
         if (emptyrow == 0) {
-             System.out.println(0);
+            System.out.println(0);
         }
 
         scanner.close();
