@@ -17,27 +17,30 @@ public class cinema {
 
         int k = scanner.nextInt();
         int count = 0;
-        int j = 0;
         int emptyrow = 0;
 
         for (int i = 0; i < row; i++) {
-            for (j = 0; j < col; j++) {
+            if (emptyrow != 0) {
+              break;
+            }
+            count = 0;
+            for (int j = 0; j < col; j++) {
                 if (matrix[i][j] == 0) {
                     count = count + 1;
                     if (count == k) {
-                        emptyrow = j;
+                        emptyrow = i + 1;
+                        System.out.println(emptyrow);
+                        break;
                     }
+                } else {
+                    count = 0;
                 }
             }
-            ++j;
         }
 
-        if (emptyrow == k) {
-            System.out.println(emptyrow + 1);
-        } else {
-            System.out.println(0);
+        if (emptyrow == 0) {
+             System.out.println(0);
         }
-        
 
         scanner.close();
     }
