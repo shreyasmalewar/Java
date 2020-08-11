@@ -11,8 +11,8 @@ public class endswith {
 
     }
 
+    // checks if a word ends with burg
     static void ewithburg(String cityName) {
-        //checks if a word ends with burg
         boolean endsWithBurg = cityName.endsWith("burg");
 
         System.out.println(endsWithBurg);
