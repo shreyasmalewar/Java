@@ -7,6 +7,7 @@ public class endswith {
         Scanner scanner = new Scanner(System.in);
         
         String cityName = scanner.nextLine();
+        ewithburg(cityName);
         scanner.close();
 
     }
