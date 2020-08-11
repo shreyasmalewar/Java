@@ -9,9 +9,13 @@ public class endswith {
         String cityName = scanner.nextLine();
         scanner.close();
 
+    }
+
+    static void ewithburg(String cityName) {
         //checks if a word ends with burg
         boolean endsWithBurg = cityName.endsWith("burg");
 
         System.out.println(endsWithBurg);
+        
     }
 }
