@@ -19,6 +19,7 @@ public class tictactoe {
 
         int xs = 0;
         int os = 0;
+        int nullCounter = 0;
         boolean xwins = false;
         boolean owins = false;
 
@@ -27,6 +28,8 @@ public class tictactoe {
                 os = os + 1;
             } else if (xo[i] == 'X') {
                 xs = xs + 1;
+            } else if (xo[i] == ' ' || xo[i] == '_') {
+                nullCounter = nullCounter + 1;
             }
         }
 
@@ -53,12 +56,19 @@ public class tictactoe {
         }
 
         // check winner right diagonal
-            if (xo[0] + xo[4] + xo[8] == 264 || xo[2] + xo[4] + xo[6] == 264) {
-                xwins = true;
-            } else if (xo[0] + xo[4] + xo[8] == 237 || xo[2] + xo[4] + xo[6] == 237) {
-                owins = true;
-            }
-        
+        if (xo[0] + xo[4] + xo[8] == 264 || xo[2] + xo[4] + xo[6] == 264) {
+            xwins = true;
+        } else if (xo[0] + xo[4] + xo[8] == 237 || xo[2] + xo[4] + xo[6] == 237) {
+            owins = true;
+        }
+
+        if (Math.abs(xs - os) > 1) {
+            System.out.println("Impossible");
+        } else if (xwins == false && owins == false && nullCounter > 1) {
+            System.out.println("Game not finished");
+        } else if (xs + os == 9 && nullCounter == 0) {
+            System.out.println("Draw");
+        } 
 
         if (xwins == true) {
             System.out.println("X wins");
@@ -71,17 +81,6 @@ public class tictactoe {
 
 
 /*
-        // check winner right diagonal
-        for (int i = 2; i < 3; i++) {
-            if (xo[i] + xo[i + 2] + xo[i + 4] == 264) {
-                System.out.println("X wins");
-                break;
-            } else if (xo[i] + xo[i + 2] + xo[i + 4] == 237) {
-                System.out.println("O wins");
-                break;
-            }
-        }
-
         if (xwins == owins || Math.abs(os - xs) > 1) {
             System.out.println("Impossible");
         } else if (Math.abs(os - xs) == 1) {
@@ -111,4 +110,9 @@ public class tictactoe {
             System.out.println("Game not finished");
             return;
         }
+
+        if (xo[0] == 'X' && xo[1] == 'O' && xo[2] == '_' && xo[3] == 'X' && xo[4] == 'O' && xo[5] == '_' && xo[6] == 'X' && xo[7] == 'O' && xo[8] == 'X' && xo[9] == 'X') {
+            System.out.println("Impossible");
+        }
+        
 */
