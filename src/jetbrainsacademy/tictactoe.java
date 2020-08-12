@@ -1,6 +1,5 @@
 package jetbrainsacademy;
 
-
 import java.util.Scanner;
 
 public class tictactoe {
@@ -53,6 +52,29 @@ public class tictactoe {
             }
         }
 
+        // check winner right diagonal
+        for (int i = 0; i < 1; i++) {
+            if (xo[i] + xo[i + 4] + xo[i + 8] == 264) {
+                xwins = true;
+                break;
+            } else if (xo[i] + xo[i + 4] + xo[i + 8] == 237) {
+                owins = true;
+                break;
+            }
+        }
+
+        // check winner left diagonal
+        for (int i = 2; i < 3; i++) {
+            if (xo[i] + xo[i + 2] + xo[i + 6] == 264) {
+                xwins = true;
+                break;
+            } else if (xo[i] + xo[i + 2] + xo[i + 6] == 237) {
+                owins = true;
+                break;
+            }
+        }
+
+
         if (xwins == true) {
             System.out.println("X wins");
         } else if (owins == true) {
@@ -62,18 +84,8 @@ public class tictactoe {
     }
 }
 
-/*
-        // check winner left diagonal
-        for (int i = 0; i < 1; i++) {
-            if (xo[i] + xo[i + 4] + xo[i + 8] == 264) {
-                System.out.println("X wins");
-                break;
-            } else if (xo[i] + xo[i + 4] + xo[i + 8] == 237) {
-                System.out.println("O wins");
-                break;
-            }
-        }
 
+/*
         // check winner right diagonal
         for (int i = 2; i < 3; i++) {
             if (xo[i] + xo[i + 2] + xo[i + 4] == 264) {
@@ -114,5 +126,4 @@ public class tictactoe {
             System.out.println("Game not finished");
             return;
         }
-
 */
