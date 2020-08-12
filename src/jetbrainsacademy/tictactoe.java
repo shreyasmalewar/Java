@@ -53,27 +53,12 @@ public class tictactoe {
         }
 
         // check winner right diagonal
-        for (int i = 0; i < 1; i++) {
-            if (xo[i] + xo[i + 4] + xo[i + 8] == 264) {
+            if (xo[0] + xo[4] + xo[8] == 264 || xo[2] + xo[4] + xo[6] == 264) {
                 xwins = true;
-                break;
-            } else if (xo[i] + xo[i + 4] + xo[i + 8] == 237) {
+            } else if (xo[0] + xo[4] + xo[8] == 237 || xo[2] + xo[4] + xo[6] == 237) {
                 owins = true;
-                break;
             }
-        }
-
-        // check winner left diagonal
-        for (int i = 2; i < 3; i++) {
-            if (xo[i] + xo[i + 2] + xo[i + 6] == 264) {
-                xwins = true;
-                break;
-            } else if (xo[i] + xo[i + 2] + xo[i + 6] == 237) {
-                owins = true;
-                break;
-            }
-        }
-
+        
 
         if (xwins == true) {
             System.out.println("X wins");
