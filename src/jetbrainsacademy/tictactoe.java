@@ -31,9 +31,6 @@ public class tictactoe {
             }
         }
 
-
-
-
         // check winner horizontally
         for (int i = 0; i < xo.length; i+= 3) {
             if (xo[i] + xo[i+1] + xo[i+2] == 264) {
@@ -55,37 +52,13 @@ public class tictactoe {
                 break;
             }
         }
-/*
-        if (xwins == owins || Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
+
+        if (xwins == true) {
+            System.out.println("X wins");
         } else if (owins == true) {
             System.out.println("O wins");
-        } else if (xwins == true) {
-            System.out.println("X wins");
-        }
-*/
-
-        if (owins == true) {
-            System.out.println("O wins");
-        } else if (xwins == true) {
-            System.out.println("X wins");
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
-        } else if (xwins == owins || Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
         }
 
-/*
-        if (Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
-            return;
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
-            return;
-        }
-*/
     }
 }
 
@@ -111,4 +84,35 @@ public class tictactoe {
                 break;
             }
         }
+
+        if (xwins == owins || Math.abs(os - xs) > 1) {
+            System.out.println("Impossible");
+        } else if (Math.abs(os - xs) == 1) {
+            System.out.println("Game not finished");
+        } else if (owins == true) {
+            System.out.println("O wins");
+        } else if (xwins == true) {
+            System.out.println("X wins");
+        }
+
+
+        if (owins == true) {
+            System.out.println("O wins");
+        } else if (xwins == true) {
+            System.out.println("X wins");
+        } else if (Math.abs(os - xs) == 1) {
+            System.out.println("Game not finished");
+        } else if (xwins == owins || Math.abs(os - xs) > 1) {
+            System.out.println("Impossible");
+        }
+
+
+        if (Math.abs(os - xs) > 1) {
+            System.out.println("Impossible");
+            return;
+        } else if (Math.abs(os - xs) == 1) {
+            System.out.println("Game not finished");
+            return;
+        }
+
 */
