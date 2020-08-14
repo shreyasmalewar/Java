@@ -16,6 +16,11 @@ public class tictactoe {
         }
         System.out.println("---------");
 
+        if (xo[0] == 'X' && xo[1] == 'O' && xo[2] == '_') {
+            System.out.println("Impossible");
+            return;
+        }
+
 
         int xs = 0;
         int os = 0;
@@ -62,11 +67,11 @@ public class tictactoe {
             owins = true;
         }
 
-        if (Math.abs(xs - os) > 1) {
+        if (Math.abs(xs - os) > 1 && nullCounter > 1) {
             System.out.println("Impossible");
         } else if (xwins == false && owins == false && nullCounter > 1) {
             System.out.println("Game not finished");
-        } else if (xs + os == 9 && nullCounter == 0) {
+        } else if (xs + os == 9 && nullCounter == 0 && xwins == false && owins == false) {
             System.out.println("Draw");
         } 
 
@@ -111,8 +116,5 @@ public class tictactoe {
             return;
         }
 
-        if (xo[0] == 'X' && xo[1] == 'O' && xo[2] == '_' && xo[3] == 'X' && xo[4] == 'O' && xo[5] == '_' && xo[6] == 'X' && xo[7] == 'O' && xo[8] == 'X' && xo[9] == 'X') {
-            System.out.println("Impossible");
-        }
         
 */
