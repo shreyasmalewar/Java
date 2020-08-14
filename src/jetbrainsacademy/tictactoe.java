@@ -83,38 +83,3 @@ public class tictactoe {
 
     }
 }
-
-
-/*
-        if (xwins == owins || Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
-        } else if (owins == true) {
-            System.out.println("O wins");
-        } else if (xwins == true) {
-            System.out.println("X wins");
-        }
-
-
-        if (owins == true) {
-            System.out.println("O wins");
-        } else if (xwins == true) {
-            System.out.println("X wins");
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
-        } else if (xwins == owins || Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
-        }
-
-
-        if (Math.abs(os - xs) > 1) {
-            System.out.println("Impossible");
-            return;
-        } else if (Math.abs(os - xs) == 1) {
-            System.out.println("Game not finished");
-            return;
-        }
-
-        
-*/
