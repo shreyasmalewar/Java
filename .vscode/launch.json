@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - newf",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.newf",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - fizzbuzz",
             "request": "launch",
             "mainClass": "jetbrainsacademy.miscallenous.fizzbuzz",
