@@ -16,6 +16,13 @@ public class tictactoe {
         }
         System.out.println("---------");
 
+
+    }
+}
+
+
+/* 
+
         if (xo[0] == 'X' && xo[1] == 'O' && xo[2] == '_') {
             System.out.println("Impossible");
             return;
@@ -81,5 +88,5 @@ public class tictactoe {
             System.out.println("O wins");
         }
 
-    }
-}
+
+*/
