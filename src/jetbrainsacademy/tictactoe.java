@@ -7,6 +7,7 @@ public class tictactoe {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter cells: ");
+        String userEntered = scanner.nextLine();
         char[] xo = scanner.nextLine().toCharArray();
         scanner.close();
 
@@ -16,7 +17,8 @@ public class tictactoe {
         }
         System.out.println("---------");
 
-
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
     }
 }
 
