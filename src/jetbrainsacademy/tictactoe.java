@@ -16,29 +16,31 @@ public class tictactoe {
         }
         System.out.println("---------");
 
-        System.out.println(("Enter the coordinates: "));
+        boolean isEmpty = true;
+        System.out.print(("Enter the coordinates: "));
         int x = scanner.nextInt();
         int y = scanner.nextInt();
+        
 
         if (x == 1 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
             xo[0] = 'X';
-        } else if (x == 2 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 2 && y == 3 && xo[1] == ' ' || xo[1] == '_') {
             xo[1] = 'X';
-        } else if (x == 3 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 3 && y == 3 && xo[2] == ' ' || xo[2] == '_') {
             xo[2] = 'X';
-        } else if (x == 3 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 3 && y == 3 && xo[3] == ' ' || xo[3] == '_') {
             xo[3] = 'X';
-        } else if (x == 1 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 1 && y == 2 && xo[4] == ' ' || xo[4] == '_') {
             xo[4] = 'X';
-        } else if (x == 2 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 2 && y == 2 && xo[5] == ' ' || xo[5] == '_') {
             xo[5] = 'X';
-        } else if (x == 3 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 3 && y == 2 && xo[6] == ' ' || xo[6] == '_') {
             xo[6] = 'X';
-        } else if (x == 1 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 1 && y == 1 && xo[7] == ' ' || xo[7] == '_') {
             xo[7] = 'X';
-        } else if (x == 2 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 2 && y == 1 && xo[8] == ' ' || xo[8] == '_') {
             xo[8] = 'X';
-        } else if (x == 3 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+        } else if (x == 3 && y == 1 && xo[9] == ' ' || xo[9] == '_') {
             xo[9] = 'X';
         } else {
             System.out.println("This cell is occupied! Choose another one!");
