@@ -73,6 +73,7 @@ public class tictactoe {
                 empty = true;
             }
         }
+        scanner.close();
 
 
         System.out.println("---------");
