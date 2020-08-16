@@ -44,28 +44,31 @@ public class tictactoe {
             if (x == 1 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
                 xo[0] = 'X';
                 empty = false;
-            } else if (x == 2 && y == 3 && xo[1] == ' ' || xo[1] == '_') {
+            } else if (x == 2 && y == 3 && (xo[1] == ' ' || xo[1] == '_')) {
                 xo[1] = 'X';
+                System.out.println("this control");
                 empty = false;
-            } else if (x == 3 && y == 3 && xo[2] == ' ' || xo[2] == '_') {
+            } else if (x == 3 && y == 3 && (xo[2] == ' ' || xo[2] == '_')) {
                 xo[2] = 'X';
                 empty = false;
-            } else if (x == 3 && y == 3 && xo[3] == ' ' || xo[3] == '_') {
+            } else if (x == 1 && y == 2 && (xo[3] == ' ' || xo[3] == '_')) {
                 xo[3] = 'X';
                 empty = false;
-            } else if (x == 1 && y == 2 && xo[4] == ' ' || xo[4] == '_') {
+            } else if (x == 2 && y == 2 && (xo[4] == ' ' || xo[4] == '_')) {
                 xo[4] = 'X';
                 empty = false;
-            } else if (x == 2 && y == 2 && xo[5] == ' ' || xo[5] == '_') {
+            } else if (x == 3 && y == 2 && (xo[5] == ' ' || xo[5] == '_')) {
                 xo[5] = 'X';
                 empty = false;
-            } else if (x == 3 && y == 2 && xo[6] == ' ' || xo[6] == '_') {
+            } else if (x == 1 && y == 1 && (xo[6] == ' ' || xo[6] == '_')) {
                 xo[6] = 'X';
+                System.out.println("apun idharich hai");
                 empty = false;
-            } else if (x == 1 && y == 1 && xo[7] == ' ' || xo[7] == '_') {
+            } else if (x == 2 && y == 1 && (xo[7] == ' ' || xo[7] == '_')) {
+                System.out.println("control was here");
                 xo[7] = 'X';
                 empty = false;
-            } else if (x == 2 && y == 1 && xo[8] == ' ' || xo[8] == '_') {
+            } else if (x == 3 && y == 1 && (xo[8] == ' ' || xo[8] == '_')) {
                 xo[8] = 'X';
                 empty = false;
             } else {
