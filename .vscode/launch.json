@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - simplecal",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.switchcase.simplecal",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - finaltictac",
             "request": "launch",
             "mainClass": "jetbrainsacademy.finaltictac",
