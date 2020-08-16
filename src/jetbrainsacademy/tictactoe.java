@@ -41,12 +41,11 @@ public class tictactoe {
             }
 
     
-            if (x == 1 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+            if (x == 1 && y == 3 && (xo[0] == ' ' || xo[0] == '_')) {
                 xo[0] = 'X';
                 empty = false;
             } else if (x == 2 && y == 3 && (xo[1] == ' ' || xo[1] == '_')) {
                 xo[1] = 'X';
-                System.out.println("this control");
                 empty = false;
             } else if (x == 3 && y == 3 && (xo[2] == ' ' || xo[2] == '_')) {
                 xo[2] = 'X';
@@ -62,10 +61,8 @@ public class tictactoe {
                 empty = false;
             } else if (x == 1 && y == 1 && (xo[6] == ' ' || xo[6] == '_')) {
                 xo[6] = 'X';
-                System.out.println("apun idharich hai");
                 empty = false;
             } else if (x == 2 && y == 1 && (xo[7] == ' ' || xo[7] == '_')) {
-                System.out.println("control was here");
                 xo[7] = 'X';
                 empty = false;
             } else if (x == 3 && y == 1 && (xo[8] == ' ' || xo[8] == '_')) {
