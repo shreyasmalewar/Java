@@ -7,9 +7,8 @@ public class tictactoe {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter cells: ");
-        String userEntered = scanner.nextLine();
         char[] xo = scanner.nextLine().toCharArray();
-        scanner.close();
+        //scanner.close();
 
         System.out.println("---------");
         for (int i = 0; i < 9; i += 3) {
@@ -17,8 +16,41 @@ public class tictactoe {
         }
         System.out.println("---------");
 
+        System.out.println(("Enter the coordinates: "));
         int x = scanner.nextInt();
         int y = scanner.nextInt();
+
+        if (x == 1 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+            xo[0] = 'X';
+        } else if (x == 2 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+            xo[1] = 'X';
+        } else if (x == 3 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+            xo[2] = 'X';
+        } else if (x == 3 && y == 3 && xo[0] == ' ' || xo[0] == '_') {
+            xo[3] = 'X';
+        } else if (x == 1 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+            xo[4] = 'X';
+        } else if (x == 2 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+            xo[5] = 'X';
+        } else if (x == 3 && y == 2 && xo[0] == ' ' || xo[0] == '_') {
+            xo[6] = 'X';
+        } else if (x == 1 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+            xo[7] = 'X';
+        } else if (x == 2 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+            xo[8] = 'X';
+        } else if (x == 3 && y == 1 && xo[0] == ' ' || xo[0] == '_') {
+            xo[9] = 'X';
+        } else {
+            System.out.println("This cell is occupied! Choose another one!");
+        }
+
+        System.out.println("---------");
+        for (int i = 0; i < 9; i += 3) {
+            System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
+        }
+        System.out.println("---------");
+
+
     }
 }
 
