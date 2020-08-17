@@ -5,51 +5,35 @@ import java.util.Scanner;
 public class simplecal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long firstNum = scanner.nextInt();
+        long firstNum = scanner.nextLong();
         String sign = scanner.next();
-        long secondNum = scanner.nextInt();
-        int num;
+        long secondNum = scanner.nextLong();
         scanner.close();
 
-        System.out.println(firstNum);
-        System.out.println(sign);
-        System.out.println(secondNum);
-
-        if (sign == "+") {
-            System.out.println("c");
-            num = 1;
-        } else if (sign == "-") {
-            num = 2;
-        } else if (sign == "*") {
-            num = 3;
-        } else if (sign == "/") {
-            num = 4;
-        } else {
-            num = 5;
-        }
-
-        switch (num) {
-            case 1:
+        switch (sign) {
+            case "+":
                 long sum = firstNum + secondNum;
                 System.out.println(sum);
                 break;
 
-            case 2:
+            case "-":
                 System.out.println(firstNum - secondNum);
                 break;
 
-            case 3:
+            case "*":
                 System.out.println(firstNum * secondNum);
                 break;
 
-            case 4:
+            case "/":
                 if (secondNum == 0) {
                     System.out.println("Division by 0!");
                 } else {
                     System.out.println(firstNum / secondNum);
                 }
+                break;
+
             default:
-                System.out.println();
+                System.out.println("Unknown operator");
                 break;
         }
 
