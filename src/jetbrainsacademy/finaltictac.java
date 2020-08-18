@@ -6,7 +6,7 @@ public class finaltictac {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        
+
         char[] xo = "         ".toCharArray();  //9 elements
 
         displayBoard(xo);
@@ -150,6 +150,15 @@ public class finaltictac {
         }
 
         // check winner horizontally
+
+        /*
+
+        When we typecast char 'X' to integer we get 88
+        Similarly typecasting 'O' to integer we get 79
+        Therefore we check is thrice the conversion of char equals 264 or 237.
+
+        */
+        
         for (int i = 0; i < xo.length; i+= 3) {
             if (xo[i] + xo[i+1] + xo[i+2] == 264) {
                 xwins = true;
