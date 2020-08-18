@@ -13,7 +13,7 @@ public class finaltictac {
         char inputValue;
         char[] xo = "         ".toCharArray();  //9 elements
 
-        displayBlankBoard();
+        displayBoard(xo);
 
         // enter element
         boolean foundWinner = false;
@@ -104,11 +104,7 @@ public class finaltictac {
             }
 
 
-            System.out.println("---------");
-            for (int i = 0; i < 9; i += 3) {
-                System.out.println(String.format("| %c %c %c |", xo[i], xo[i + 1], xo[i + 2]));
-            }
-            System.out.println("---------");
+            displayBoard(xo);
 
             boolean winner = checkWinner(xo);
             if (winner == true) {
@@ -120,11 +116,11 @@ public class finaltictac {
         }
     }
 
-    // display blank board
-    static void displayBlankBoard() {
+    // display board
+    static void displayBoard(char xo[]) {
         System.out.println("---------");
         for (int i = 0; i < 9; i += 3) {
-            System.out.println(String.format("|       |"));
+            System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
         }
         System.out.println("---------");
 
