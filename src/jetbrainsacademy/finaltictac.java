@@ -6,17 +6,32 @@ public class finaltictac {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        
+        char[] xo = "         ".toCharArray();  //9 elements
+
+        displayBoard(xo);
+        enterElements(xo);   
+        
+    }
+
+    // display board
+    static void displayBoard(char xo[]) {
+        System.out.println("---------");
+        for (int i = 0; i < 9; i += 3) {
+            System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
+        }
+        System.out.println("---------");
+
+    }
+
+    static void enterElements(char[] xo) {
 
         int x = 0;
         int y = 0;
         int stepCounter = 0;
         char inputValue;
-        char[] xo = "         ".toCharArray();  //9 elements
-
-        displayBoard(xo);
-
-        // enter element
         boolean foundWinner = false;
+
         while (foundWinner != true) {
 
             boolean perfectCoordinates = false;
@@ -114,16 +129,6 @@ public class finaltictac {
                 continue;
             }
         }
-    }
-
-    // display board
-    static void displayBoard(char xo[]) {
-        System.out.println("---------");
-        for (int i = 0; i < 9; i += 3) {
-            System.out.println(String.format("| %c %c %c |", xo[i], xo[i+1], xo[i+2]));
-        }
-        System.out.println("---------");
-
     }
 
     // to check winner
