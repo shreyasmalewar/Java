@@ -25,16 +25,6 @@ public class CoffeeMachine {
     }
 
     static void calculateCoffee(int numberOfCups, int water, int milk, int coffeeBeans) {
-
-        int numberOfCupsRequired = numberOfCups * (water + milk + coffeeBeans);
-        int numberOfCupsPossible = numberOfCups * (200 + 50 + 15);
-
-        if (numberOfCupsPossible > numberOfCupsRequired) {
-            System.out.println("Yes i can");
-        } else if (numberOfCupsPossible < numberOfCupsRequired) {
-            System.out.println("no");
-        } else {
-            System.out.println("yes");
-        }
+        
     }
 }
