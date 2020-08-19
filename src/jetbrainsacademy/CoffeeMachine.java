@@ -16,6 +16,11 @@ public class CoffeeMachine {
         numberOfCups = scanner.nextInt();
         scanner.close();
 
+        calculateCoffee(numberOfCups, water, milk, coffeeBeans);
+
+    }
+
+    static void calculateCoffee(int numberOfCups, int water, int milk, int coffeeBeans) {
         System.out.printf("For %d cups of coffee you will need:", numberOfCups);
         System.out.println();
         System.out.printf("%d ml of water", numberOfCups * water);
@@ -23,5 +28,6 @@ public class CoffeeMachine {
         System.out.printf("%d ml of milk", numberOfCups * milk);
         System.out.println();
         System.out.printf("%d g of coffee beans", numberOfCups * coffeeBeans);
+
     }
 }
