@@ -16,7 +16,7 @@ public class CoffeeMachine {
         System.out.println("Write how many grams of coffee beans the coffee machine has:");
         int coffeeBeans = scanner.nextInt();
 
-        System.out.print("How many cups of coffee do you want to make: ");
+        System.out.println("How many cups of coffee do you want to make: ");
         int numberOfCups = scanner.nextInt();
         scanner.close();
 
