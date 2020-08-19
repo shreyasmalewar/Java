@@ -3,9 +3,9 @@ package jetbrainsacademy;
 import java.util.Scanner;
 
 public class CoffeeMachine {
+    final static Scanner scanner = new Scanner(System.in);;
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Write how many ml of water the coffee machine has:");
         int water = scanner.nextInt();
@@ -25,6 +25,6 @@ public class CoffeeMachine {
     }
 
     static void calculateCoffee(int numberOfCups, int water, int milk, int coffeeBeans) {
-        
+
     }
 }
