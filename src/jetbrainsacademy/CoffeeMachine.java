@@ -7,13 +7,17 @@ public class CoffeeMachine {
 
         Scanner scanner = new Scanner(System.in);
 
-        int numberOfCups = 0;
-        int water = 200;
-        int milk = 50;
-        int coffeeBeans = 15;
+        System.out.println("Write how many ml of water the coffee machine has:");
+        int water = scanner.nextInt();
+
+        System.out.println("Write how many ml of milk the coffee machine has:");
+        int milk = scanner.nextInt();
+
+        System.out.println("Write how many grams of coffee beans the coffee machine has:");
+        int coffeeBeans = scanner.nextInt();
 
         System.out.print("How many cups of coffee do you want to make: ");
-        numberOfCups = scanner.nextInt();
+        int numberOfCups = scanner.nextInt();
         scanner.close();
 
         calculateCoffee(numberOfCups, water, milk, coffeeBeans);
@@ -21,13 +25,16 @@ public class CoffeeMachine {
     }
 
     static void calculateCoffee(int numberOfCups, int water, int milk, int coffeeBeans) {
-        System.out.printf("For %d cups of coffee you will need:", numberOfCups);
-        System.out.println();
-        System.out.printf("%d ml of water", numberOfCups * water);
-        System.out.println();
-        System.out.printf("%d ml of milk", numberOfCups * milk);
-        System.out.println();
-        System.out.printf("%d g of coffee beans", numberOfCups * coffeeBeans);
 
+        int numberOfCupsRequired = numberOfCups * (water + milk + coffeeBeans);
+        int numberOfCupsPossible = numberOfCups * (200 + 50 + 15);
+
+        if (numberOfCupsPossible > numberOfCupsRequired) {
+            System.out.println("Yes i can");
+        } else if (numberOfCupsPossible < numberOfCupsRequired) {
+            System.out.println("no");
+        } else {
+            System.out.println("yes");
+        }
     }
 }
