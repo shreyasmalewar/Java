@@ -1,5 +1,5 @@
 package DAA;
-
+/*
 // DFS algorithm in Java
 
 import java.util.*;
@@ -51,3 +51,5 @@ class DS {
     g.DFS(2);
   }
 }
+
+*/
