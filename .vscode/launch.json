@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CaesarCipher",
+            "request": "launch",
+            "mainClass": "DAA.CaesarCipher",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DS",
+            "request": "launch",
+            "mainClass": "DAA.DS",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BS",
+            "request": "launch",
+            "mainClass": "DAA.BS",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - dekh",
+            "request": "launch",
+            "mainClass": "DAA.dekh",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FloydWarshall",
+            "request": "launch",
+            "mainClass": "DAA.FloydWarshall",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CoffeeMachine",
             "request": "launch",
             "mainClass": "jetbrainsacademy.CoffeeMachine",
