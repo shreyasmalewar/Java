@@ -1,7 +1,7 @@
 package DAA;
 
 // BFS algorithm in Java
-
+/*
 import java.util.*;
 
 public class BS {
@@ -64,3 +64,5 @@ public class BS {
     g.BFS(2);
   }
 }
+
+*/
