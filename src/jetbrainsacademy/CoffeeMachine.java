@@ -37,9 +37,9 @@ public class CoffeeMachine {
         int possibleCups = numberOfCups * (water + milk + coffeeBeans);
 
         if (possibleCups > numberOfCups) {
-            System.out.println("Yes, I can make that amount of codffee");
+            System.out.println("Yes, I can make that amount of coffee");
         }
-        
+
 /*
         if (water > milk && water > coffeeBeans) {
             System.out.printf("Yes, I can make that amount of coffee");
