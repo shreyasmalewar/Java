@@ -20,11 +20,26 @@ public class CoffeeMachine {
         int numberOfCups = scanner.nextInt();
         scanner.close();
 
-        calculateCoffee(numberOfCups, water, milk, coffeeBeans);
+        if (water < 200 || milk < 50 || coffeeBeans < 15) {
+            System.out.println("No, I can make only 0 cup(s) of coffee");
+        } else {
+            calculateCoffee(numberOfCups, water, milk, coffeeBeans);
+        }
+
 
     }
 
     static void calculateCoffee(int numberOfCups, int water, int milk, int coffeeBeans) {
+        water = water / 200;
+        milk = milk / 50;
+        coffeeBeans = coffeeBeans / 15;
 
+        if (water > milk && water > coffeeBeans) {
+            System.out.printf("Yes, I can make %d cups of coffee", water);
+        } else if (milk > water && milk > coffeeBeans) {
+            System.out.printf("Yes, I can make %d cups of coffee", milk);
+        } else if (coffeeBeans > water && coffeeBeans > milk) {
+            System.out.printf("Yes, I can make %d cups of coffee", coffeeBeans);
+        }
     }
 }
