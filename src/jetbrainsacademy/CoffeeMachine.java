@@ -34,6 +34,13 @@ public class CoffeeMachine {
         milk = milk / 50;
         coffeeBeans = coffeeBeans / 15;
 
+        int possibleCups = numberOfCups * (water + milk + coffeeBeans);
+
+        if (possibleCups > numberOfCups) {
+            System.out.println("Yes, I can make that amount of codffee");
+        }
+        
+/*
         if (water > milk && water > coffeeBeans) {
             System.out.printf("Yes, I can make that amount of coffee");
         } else if (milk > water && milk > coffeeBeans) {
@@ -41,5 +48,6 @@ public class CoffeeMachine {
         } else if (coffeeBeans > water && coffeeBeans > milk) {
             System.out.printf("Yes, I can make that amount of coffee");
         }
+*/ 
     }
 }
