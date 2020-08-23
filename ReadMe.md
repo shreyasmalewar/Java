@@ -1,6 +1,5 @@
 # Java Basics
 
-
 ## Reviving repo, Learning java from Jetbrains Academy.
 
 My HyperSkill Profile - https://hyperskill.org/profile/26441506
