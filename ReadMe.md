@@ -2,9 +2,9 @@
 
 ## Reviving repo, Learning java from Jetbrains Academy.
 
-My HyperSkill Profile - https://hyperskill.org/profile/26441506
-
 Course - https://hyperskill.org/tracks/1
+
+My HyperSkill Profile - https://hyperskill.org/profile/26441506
 
 Completed Project(s) 
 Simple Chatty Bot (https://hyperskill.org/projects/113?track=1)
