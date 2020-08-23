@@ -10,4 +10,4 @@ Simple Chatty Bot (https://hyperskill.org/projects/113?track=1)
 
 Tic Tac Toe (https://hyperskill.org/projects/48?track=1)
 
-Ongoing Project - Coffee Machine (https://hyperskill.org/projects/48?track=1)
+Ongoing Project - Coffee Machine ()
