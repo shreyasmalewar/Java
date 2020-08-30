@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - rotation",
+            "request": "launch",
+            "mainClass": "jetbrainsacademy.miscallenous.rotation",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CaesarCipher",
             "request": "launch",
             "mainClass": "DAA.CaesarCipher",
