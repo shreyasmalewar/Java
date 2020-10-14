@@ -5,5 +5,7 @@ class CoffeeMachine {
         int fixedMilk = 200;
         int fixedWater = 50;
         int fixedCoffee = 15;
+
+        System.out.println(fixedCoffee + fixedMilk + fixedWater);
     }
 }
