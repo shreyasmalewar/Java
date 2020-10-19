@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MTClientTwo",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.MTClientTwo",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MTClientOne",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.MTClientOne",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MTServer",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.MTServer",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - STClientTwo",
             "request": "launch",
             "mainClass": "ComputerNetworks.singlethread.STClientTwo",
