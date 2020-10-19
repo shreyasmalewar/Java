@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - STClientTwo",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.STClientTwo",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - STClientOne",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.STClientOne",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - STServer",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.STServer",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ncl",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.ncl",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoClient",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.EchoClient",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoServer",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.multithread.EchoServer",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Eclient",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.Eclient",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoClient",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.EchoClient",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EchoServer",
+            "request": "launch",
+            "mainClass": "ComputerNetworks.singlethread.EchoServer",
+            "projectName": "learn-java"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UDPClient",
             "request": "launch",
             "mainClass": "ComputerNetworks.UDP.UDPClient",
