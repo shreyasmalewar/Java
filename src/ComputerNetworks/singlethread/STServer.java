@@ -15,9 +15,13 @@ public class STServer {
                     DataOutputStream output = new DataOutputStream(socket.getOutputStream())
                 ) {
 
+                        for (int i = 0; i < 5; i++) {
+
                         String msg = input.readUTF(); // reading the next client message
                         output.writeUTF(msg); // resend it to the client
                         System.out.println("message echoed");
+                        
+                        }
                     
                     
                 }

@@ -17,12 +17,14 @@ public class STClientOne {
             DataOutputStream output  = new DataOutputStream(socket.getOutputStream())
         ) {
                 
+                for (int i = 0; i < 5; i++){
                 String msg = scanner.nextLine();
             
                 output.writeUTF(msg);
                 String receivedMsg = input.readUTF();
             
                 System.out.println(receivedMsg);
+                }
             
             
         } catch (IOException e) {
