@@ -15,13 +15,16 @@ public class STClientTwo {
             DataInputStream input = new DataInputStream(socket.getInputStream());
             DataOutputStream output  = new DataOutputStream(socket.getOutputStream())
         ) {
+                for (int i = 0; i < 5; i++)
+                {
+                    String msg = scanner.nextLine();
+            
+                    output.writeUTF(msg);
+                    String receivedMsg = input.readUTF();
                 
-                String msg = scanner.nextLine();
-            
-                output.writeUTF(msg);
-                String receivedMsg = input.readUTF();
-            
-                System.out.println(receivedMsg);
+                    System.out.println(receivedMsg);
+                }
+
             
             
         } catch (IOException e) {
