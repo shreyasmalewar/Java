@@ -12,6 +12,7 @@ public class STClientOne {
         Scanner scanner = new Scanner(System.in);
         try (
             Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT);
+            //Data stream well with primitive datatypes
             DataInputStream input = new DataInputStream(socket.getInputStream());
             DataOutputStream output  = new DataOutputStream(socket.getOutputStream())
         ) {
